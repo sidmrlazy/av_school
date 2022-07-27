@@ -18,8 +18,37 @@
 }
 .nav-link {
   font-weight: 500 !important;
+  font-size: 14px !important;
 }
 .nav-link:hover {
   color: #fb493f !important;
-  font-weight: 600 !important;
+}
+.navbar-brand img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Footer */
+.development-footer {
+  position: absolute;
+  bottom: 0 !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+  border-top: 1px solid #e7e7e7;
+  padding-top: 10px !important;
+  background-color: #fff;
+}
+.development-footer p {
+  color: #fb493f !important;
+}
+.development-footer a {
+  text-decoration: none !important;
+  color: #000 !important;
+  font-weight: bold;
+}
+.development-footer a:hover {
+  color: #3b8b18 !important;
+  transition: 0.3s all ease-in-out !important;
 }

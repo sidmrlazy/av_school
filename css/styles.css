@@ -11,14 +11,15 @@
   background: #fb493f;
 }
 
-/* Navbar */
+/* ================= Navbar ================= */
 .navbar {
   background-color: #fff !important;
   border-bottom: 1px solid #e7e7e7;
 }
 .nav-link {
   font-weight: 500 !important;
-  font-size: 14px !important;
+  font-size: 15px !important;
+  color: #2f373d !important;
 }
 .nav-link:hover {
   color: #fb493f !important;
@@ -27,8 +28,17 @@
   width: 100% !important;
   height: auto !important;
 }
+.navbar-lottie-container {
+  width: 50px;
+  height: 50px;
+  margin: 0 !important;
+}
+.navbar-lottie {
+  width: 50px !important;
+  height: 50px !important;
+}
 
-/* Footer */
+/* ================= Footer ================= */
 .development-footer {
   position: absolute;
   bottom: 0 !important;
@@ -45,10 +55,38 @@
 }
 .development-footer a {
   text-decoration: none !important;
-  color: #000 !important;
+  color: #2f373d !important;
   font-weight: bold;
 }
 .development-footer a:hover {
   color: #3b8b18 !important;
   transition: 0.3s all ease-in-out !important;
+}
+
+/* ================= Responsive ================= */
+@media only screen and (max-width: 768px) {
+  /* ================= Navbar ================= */
+  .navbar {
+    position: fixed !important;
+    width: 100% !important;
+  }
+  .social-media-mobile-navbar {
+    border-top: 1px solid #fb493f !important;
+    padding-top: 5px !important;
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+  }
+  .navbar-lottie-container {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px !important;
+  }
+
+  /* ================= Footer ================= */
+  .development-footer p {
+    color: #fb493f !important;
+    text-align: center !important;
+    font-size: 12px !important;
+  }
 }

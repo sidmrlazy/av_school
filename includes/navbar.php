@@ -31,7 +31,20 @@
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
             </ul>
-
+            <div class="d-flex social-media-mobile-navbar">
+                <a href="" target="_blank" class="navbar-lottie-container">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_qnpfavmd.json"
+                        background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
+                </a>
+                <a href="" target="_blank" class="navbar-lottie-container">
+                    <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_qhsl1iwc.json"
+                        background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
+                </a>
+                <a href="" target="_blank" class="navbar-lottie-container">
+                    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_vnqzcze6.json"
+                        background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
+                </a>
+            </div>
         </div>
     </div>
 </nav>

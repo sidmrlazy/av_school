@@ -1,0 +1,25 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: #fb493f;
+}
+
+::selection {
+  background: #fb493f;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff !important;
+  border-bottom: 1px solid #e7e7e7;
+}
+.nav-link {
+  font-weight: 500 !important;
+}
+.nav-link:hover {
+  color: #fb493f !important;
+  font-weight: 600 !important;
+}

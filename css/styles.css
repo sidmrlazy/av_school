@@ -1,4 +1,5 @@
 * {
+  /* font-family: "Mochiy Pop One", sans-serif; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -38,9 +39,133 @@
   height: 50px !important;
 }
 
+/* ================= Home Page Banner ================= */
+.homepage-banner-section {
+  background-image: url("../assets/images/backgrounds/bg-1.png");
+  width: 1365px !important;
+  height: 450px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 200px !important;
+}
+.homepage-banner-section h1 {
+  text-transform: uppercase !important;
+  color: #fb493f !important;
+  font-weight: bold;
+}
+.homepage-banner-section h3 {
+  letter-spacing: 10px !important;
+  margin: 20px !important;
+}
+.homepage-banner-section p {
+  text-align: center !important;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* ================= Feature Brief Section ================= */
+.feature-brief-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature-brief-left {
+  padding: 100px !important;
+  background-color: #e7e7e7e7 !important;
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  flex-direction: column !important;
+}
+.feature-brief-left h4 {
+  font-size: 30px !important;
+  font-family: "Mochiy Pop One", sans-serif !important;
+  text-align: left;
+  margin-bottom: 20px !important;
+}
+.feature-brief-left p {
+  text-align: left;
+  padding-right: 50px !important;
+  font-size: 14px !important;
+}
+.feature-btn-small-left {
+  text-decoration: none !important;
+  background-color: #fb493f !important;
+  width: 150px !important;
+  text-align: center;
+  border-radius: 50px !important;
+  padding: 10px !important;
+  color: #fff !important;
+  border: 2px solid #fb493f !important;
+}
+.feature-btn-small-left:hover {
+  background-color: #fff !important;
+  color: #fb493f !important;
+  transition: 0.3s all ease-in-out !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff !important;
+}
+.feature-brief-right {
+  padding: 100px !important;
+  background-color: #fb493f !important;
+  display: flex;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+  flex-direction: column !important;
+}
+.feature-brief-right h4 {
+  font-size: 30px !important;
+  font-family: "Mochiy Pop One", sans-serif !important;
+  text-align: right !important;
+  color: #fff !important;
+  margin-bottom: 20px;
+}
+.feature-brief-right p {
+  text-align: right;
+  padding-left: 50px !important;
+  font-size: 14px !important;
+  color: #fff;
+}
+.feature-btn-small-right {
+  text-decoration: none !important;
+  width: 150px !important;
+  text-align: center;
+  border-radius: 50px !important;
+  border: 2px solid #fff !important;
+  padding: 10px !important;
+  color: #fff !important;
+}
+.feature-btn-small-right:hover {
+  background-color: #fff !important;
+  color: #fb493f !important;
+  transition: 0.3s all ease-in-out !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+/* ================= Buttons ================= */
+.anchor-button-xl {
+  width: 200px;
+  height: auto;
+  background-color: #fb493f !important;
+  border-radius: 50px;
+  text-decoration: none !important;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  font-weight: 500 !important;
+}
+.anchor-button-xl:hover {
+  color: #fff;
+  transition: 0.3s all ease-in-out !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+}
+
 /* ================= Footer ================= */
 .development-footer {
-  position: absolute;
+  position: absolute !important;
   bottom: 0 !important;
   display: flex;
   justify-content: center !important;
@@ -69,6 +194,8 @@
   .navbar {
     position: fixed !important;
     width: 100% !important;
+    overflow: scroll !important;
+    z-index: 100 !important;
   }
   .social-media-mobile-navbar {
     border-top: 1px solid #fb493f !important;
@@ -83,7 +210,66 @@
     margin-left: 10px !important;
   }
 
+  /* ================= Home Page Banner ================= */
+  .homepage-banner-section {
+    background-image: url("../assets/images/backgrounds/bg-1.png");
+    width: 360px !important;
+    height: 420px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px !important;
+  }
+  .homepage-banner-section h1 {
+    display: none !important;
+  }
+  .homepage-banner-section h3 {
+    text-align: center !important;
+    letter-spacing: 10px !important;
+    font-size: 16px !important;
+    margin: 5px !important;
+    font-weight: bold;
+  }
+  .homepage-banner-section p {
+    text-align: center !important;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  /* ================= Buttons ================= */
+  .anchor-button-xl {
+    width: 100px;
+    height: auto;
+    background-color: #fb493f !important;
+    border-radius: 50px;
+    text-decoration: none !important;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+  }
+  .anchor-button-xl:hover {
+    color: #fff;
+    transition: 0.3s all ease-in-out !important;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+  }
+
   /* ================= Footer ================= */
+  .development-footer {
+    position: absolute !important;
+    bottom: 0 !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 10px !important;
+    background-color: #fff;
+  }
   .development-footer p {
     color: #fb493f !important;
     text-align: center !important;

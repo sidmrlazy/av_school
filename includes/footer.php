@@ -1,6 +1,6 @@
-<div class="development-footer">
+<!-- <div class="development-footer">
     <p>&#169; All Rights Reserved | Designed & Developed by <a href="https://onlynus.com" target="_blank">Onlyn</a></p>
-</div>
+</div> -->
 
 <!-- Lottie -->
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>

@@ -1,6 +1,22 @@
-<!-- <div class="development-footer">
+<footer>
+    <ul>
+        <li>Home</li>
+        <li>About us</li>
+        <li>Infrastructure</li>
+        <li>Curriculum & Amenities</li>
+        <li>Academics</li>
+        <li>Admissions</li>
+        <li>Contact</li>
+    </ul>
+</footer>
+<div class="development-footer">
     <p>&#169; All Rights Reserved | Designed & Developed by <a href="https://onlynus.com" target="_blank">Onlyn</a></p>
-</div> -->
+</div>
+
+
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 <!-- Lottie -->
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>

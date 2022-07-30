@@ -145,6 +145,225 @@
   transition: 0.3s all ease-in-out !important;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
+
+/* ================= About Brief Section ================= */
+.about-brief {
+  background-image: url("../assets/images/backgrounds/bg-2.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 200px !important;
+  background-attachment: fixed;
+  min-height: 400px;
+}
+.about-icon {
+  font-size: 30px !important;
+  color: darkblue !important;
+  margin-bottom: 20px !important;
+}
+.about-brief h5 {
+  font-family: "Mochiy Pop One", sans-serif !important;
+  font-size: 30px !important;
+  margin-bottom: 20px !important;
+}
+.about-brief p {
+  text-align: center;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  font-size: 20px !important;
+}
+
+/* ================= Homepage Principal Brief Section ================= */
+.homepage-principal-brief {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.homepage-principal-brief-left {
+  background-image: url("../assets/images/backgrounds/bg-3.png");
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  height: 400px !important;
+  padding: 50px;
+  display: flex;
+  justify-content: center !important;
+  align-items: flex-start;
+}
+.homepage-principle-brief-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.homepage-principle-brief-content p {
+  color: #fff !important;
+}
+.homepage-principle-brief-content h4 {
+  color: #fff !important;
+  font-weight: bold !important;
+}
+.home-page-under-button-extreme-left {
+  background-color: #ffbd54;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0 !important;
+}
+.home-page-under-button-left {
+  background-color: #ffae2d;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0 !important;
+}
+.home-page-under-button-right {
+  background-color: #ff9c02;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0 !important;
+  border-bottom-right-radius: 30px !important;
+}
+.read-more-btn-sm {
+  background-color: #fb493f;
+  width: 120px;
+  padding: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50px;
+}
+.read-more-btn-sm:hover {
+  color: #fff;
+  transition: 0.3s all ease-in-out !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* ================= Homepage Amenities ================= */
+.amenities-section {
+  margin-top: 100px !important;
+  margin-bottom: 40px !important;
+}
+.amenities-heading {
+  letter-spacing: 15px;
+  color: darkblue;
+  font-weight: bold;
+}
+.amenities-card {
+  width: 350px;
+  height: 380px;
+  background-color: #ff9c02;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.amenities-card#blue {
+  background-color: #2b76df;
+}
+.amenities-card-icon-holder#icon-holder-blue {
+  background-color: #5591e5 !important;
+}
+.amenities-card#green {
+  background-color: #74bc19;
+}
+.amenities-card-icon-holder#icon-holder-green {
+  background-color: #90c947 !important;
+}
+.amenities-card#purple {
+  background-color: #7f5aff;
+}
+.amenities-card-icon-holder#icon-holder-purple {
+  background-color: #997bff !important;
+}
+.amenities-card#red {
+  background-color: #ff7355;
+}
+.amenities-card-icon-holder#icon-holder-red {
+  background-color: #ff8f77 !important;
+}
+.amenities-card#gray {
+  background-color: #466177;
+}
+.amenities-card-icon-holder#icon-holder-gray {
+  background-color: #6b8192 !important;
+}
+.amenities-card-icon-holder {
+  width: 100px;
+  height: 100px;
+  background-color: #ffb035;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.amenities-card-icon {
+  font-size: 28px;
+  color: #fff;
+}
+.amenities-card p {
+  color: #fff;
+}
+.sm-label {
+  font-weight: 500;
+  color: #fff;
+}
+.amenities-card a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.amenities-card:hover a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* ================= Common Elements ================= */
+.grid-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px !important;
+}
+.section-header p {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: #fb493f;
+  letter-spacing: 20px !important;
+  text-align: center;
+}
+.line {
+  width: 200px !important;
+  border-bottom: 0.5px solid #2f373d !important;
+  margin: 20px;
+}
+.vertical-line {
+  border-left: 10px solid orange !important;
+  height: 300px !important;
+  margin-right: 25px !important;
+}
+
 /* ================= Buttons ================= */
 .anchor-button-xl {
   width: 200px;
@@ -165,8 +384,6 @@
 
 /* ================= Footer ================= */
 .development-footer {
-  position: absolute !important;
-  bottom: 0 !important;
   display: flex;
   justify-content: center !important;
   align-items: center !important;
@@ -214,7 +431,7 @@
   .homepage-banner-section {
     background-image: url("../assets/images/backgrounds/bg-1.png");
     width: 360px !important;
-    height: 420px !important;
+    height: 450px !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     display: flex;
@@ -258,10 +475,63 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
   }
 
+  /* ================= Feature Brief Section ================= */
+  .feature-brief-section {
+    flex-direction: column !important;
+  }
+  .feature-brief-left {
+    padding: 50px !important;
+  }
+  .feature-brief-right {
+    padding: 50px !important;
+  }
+  .feature-brief-left h4 {
+    font-size: 24px !important;
+  }
+  .feature-brief-right h4 {
+    font-size: 24px !important;
+  }
+  .feature-brief-left p {
+    padding-left: 10px !important;
+  }
+  .feature-brief-right p {
+    padding-left: 10px !important;
+  }
+
+  /* ================= About Brief Section ================= */
+  .about-brief {
+    background-image: url("../assets/images/backgrounds/bg-2.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    padding: 10px !important;
+    background-attachment: fixed;
+    min-height: 500px;
+    width: 360px !important;
+    height: 400px !important;
+  }
+  .about-icon {
+    font-size: 30px !important;
+    color: darkblue !important;
+    margin-bottom: 20px !important;
+  }
+  .about-brief h5 {
+    font-family: "Mochiy Pop One", sans-serif !important;
+    font-size: 24px !important;
+    margin-bottom: 20px !important;
+  }
+  .about-brief p {
+    text-align: center;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 16px !important;
+  }
+
   /* ================= Footer ================= */
   .development-footer {
-    position: absolute !important;
-    bottom: 0 !important;
     display: flex;
     justify-content: center !important;
     align-items: center !important;

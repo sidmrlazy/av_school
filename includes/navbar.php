@@ -16,13 +16,7 @@
                     <a class="nav-link" href="about-us.php">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="infrastructure.php">Infrastructure</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="curriculum.php">Curriculum & Amenities</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="academics.php">Academics</a>
+                    <a class="nav-link" href="curriculum.php">Curriculum & Academics</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -30,8 +24,8 @@
                         Admissions
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Admission Criteria</a></li>
-                        <li><a class="dropdown-item" href="#">Fee Structure</a></li>
+                        <li><a class="dropdown-item" href="admissions.php#criteria">Admission Criteria</a></li>
+                        <li><a class="dropdown-item" href="admissions.php#fee-structure">Fee Structure</a></li>
                         <li><a class="dropdown-item" href="#">Transfer Certificate</a></li>
                     </ul>
                 </li>
@@ -39,6 +33,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://onlynus.com" target="_blank">
+                        <img src="assets/images/logo-red.png" alt="" class="ol_nerdy">
+                    </a>
+                </li>
+
             </ul>
             <div class="d-flex social-media-mobile-navbar">
                 <a href="" target="_blank" class="navbar-lottie-container">
@@ -54,6 +55,9 @@
                         background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
                 </a>
             </div>
+
+
+
         </div>
     </div>
 </nav>

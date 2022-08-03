@@ -1,16 +1,38 @@
 <footer>
-    <ul>
-        <li>Home</li>
-        <li>About us</li>
-        <li>Infrastructure</li>
-        <li>Curriculum & Amenities</li>
-        <li>Academics</li>
-        <li>Admissions</li>
-        <li>Contact</li>
-    </ul>
+    <div class="footer">
+        <ul class="col-md-6">
+            <li class="footer-first-section">
+                <ion-icon name="location-outline" class="footer-icon"></ion-icon>
+                <p>888/1 Vigyan Khand, Gomti Nagar Lucknow 226010</p>
+            </li>
+            <li class="footer-first-section">
+                <ion-icon name="phone-portrait-outline" class="footer-icon"></ion-icon>
+                <p>+91 8318075979 | +91 9792316818</p>
+            </li>
+            <li class="footer-first-section">
+                <ion-icon name="mail-open-outline" class="footer-icon"></ion-icon>
+                <p>avaneendraacademy@gmail.com</p>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="index.php" class="footer-menu">Home</a></li>
+            <li><a href="about-us.php" class="footer-menu">About us</a></li>
+            <li><a href="curriculum.php" class="footer-menu">Curriculum & Academics</a></li>
+            <li><a href="admissions.php#criteria" class="footer-menu">Admissions</a></li>
+            <li><a href="contact.php" class="footer-menu">Contact</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="" class="footer-menu">Sitemap</a></li>
+            <li><a href="" class="footer-menu">Privacy Policy</a></li>
+            <li><a href="" class="footer-menu">Disclaimer</a></li>
+            <li><a href="" class="footer-menu">Terms & Conditions</a></li>
+        </ul>
+    </div>
 </footer>
 <div class="development-footer">
-    <p>&#169; All Rights Reserved | Designed & Developed by <a href="https://onlynus.com" target="_blank">Onlyn</a></p>
+    <p>&#169; All Rights Reserved | Designed & Developed by <a href="https://onlynus.com" target="_blank">Onlyn</a> |
+        Powered by <a href="">Onlyn Nerdy</a></p>
 </div>
 
 

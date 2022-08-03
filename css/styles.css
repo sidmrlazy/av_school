@@ -12,6 +12,12 @@
   background: #fb493f;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* ================= Navbar ================= */
 .navbar {
   background-color: #fff !important;
@@ -35,14 +41,31 @@
   margin: 0 !important;
 }
 .navbar-lottie {
-  width: 50px !important;
-  height: 50px !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+.ol_nerdy {
+  width: 80px;
+  height: auto;
+  margin-left: 15px !important;
 }
 
 /* ================= Home Page Banner ================= */
+.homepage-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.homepage-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .homepage-banner-section {
   background-image: url("../assets/images/backgrounds/bg-1.png");
-  width: 1365px !important;
+  width: 100% !important;
   height: 450px;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -56,15 +79,268 @@
   text-transform: uppercase !important;
   color: #fb493f !important;
   font-weight: bold;
+  font-size: 30px !important;
 }
 .homepage-banner-section h3 {
   letter-spacing: 10px !important;
   margin: 20px !important;
+  font-size: 16px;
 }
 .homepage-banner-section p {
   text-align: center !important;
   margin-top: 10px;
   font-size: 20px;
+}
+
+/* ================= About Section ================= */
+.about-page-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.about-page-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.about-page-banner-section {
+  background-image: url("../assets/images/backgrounds/bg-2.png");
+  width: 100% !important;
+  height: 450px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 200px !important;
+}
+.about-page-section {
+  text-transform: uppercase !important;
+  color: #fb493f !important;
+  font-weight: bold;
+  font-size: 20px !important;
+  letter-spacing: 10px;
+}
+.about-page-screen-name {
+  margin: 20px !important;
+  font-family: "Mochiy Pop One", sans-serif !important;
+  font-size: 44px !important;
+}
+.about-content-container {
+  display: flex !important;
+}
+.about-content-left {
+  padding: 40px !important;
+  background-color: #2f373d;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.about-content-left p {
+  color: #fff !important;
+}
+.about-content-left #about-heading {
+  margin: 0 !important;
+  color: #ff9c02 !important;
+  font-weight: 600 !important;
+  font-size: 20px;
+}
+.about-content-left h1 {
+  color: #fff;
+  font-family: "Mochiy Pop One", sans-serif !important;
+  margin-bottom: 15px !important;
+}
+.about-content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.about-content-right img {
+  width: 100%;
+  height: auto;
+}
+/* ================= Founders Button Section ================= */
+.founders-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #7f5aff;
+}
+.left-btn {
+  background-color: #ffbd54;
+  text-align: center;
+  padding: 30px;
+  border-bottom-left-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.center-btn {
+  background-color: #ffae2d;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.right-btn {
+  background-color: #ff9c02;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* ================= Founders Section ================= */
+.founders-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #7f5aff !important;
+}
+.founders-left-section {
+  padding: 40px !important;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.founders-left-section p {
+  font-weight: bold;
+  color: #ffae2d !important;
+  font-size: 20px;
+}
+.founders-left-section h3 {
+  color: #fff !important;
+}
+.founders-right-section {
+  max-width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+.founders-right-section p {
+  color: #fff;
+}
+
+/* ================= Founders Profile Section ================= */
+.founder-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.founder-profile-left-section {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 40px;
+}
+.founder-profile-right-section {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 40px;
+}
+.founder-img-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  max-width: auto !important;
+  height: 100% !important;
+}
+.founder-img-container img {
+  width: 60% !important;
+  height: auto;
+}
+.founder-profile-left-section p {
+  text-align: left !important;
+}
+.founder-profile-right-section p {
+  text-align: right !important;
+}
+.founder-profile-left-section h5 {
+  color: #fb493f !important;
+}
+.founder-profile-right-section h5 {
+  color: #fb493f !important;
+}
+
+/* ================= Curriculum & Amenities Section ================= */
+.content-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content-icon {
+  font-size: 36px;
+  color: #fb493f !important;
+  margin-bottom: 15px;
+}
+.content-heading-container h3 {
+  font-family: "Mochiy Pop One", sans-serif !important;
+  margin-bottom: 10px;
+}
+.content-heading-container p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #6b8192;
+}
+.rectangle-card {
+  width: 500px;
+  height: 400px;
+  border: 1px solid #e7e7e7;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(158, 158, 158, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(158, 158, 158, 1);
+  box-shadow: 0px 0px 20px 0px rgba(158, 158, 158, 1);
+  background-color: #fff !important;
+  border-top: 30px solid #fb493f !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.rectangle-card#blue {
+  border-top: 30px solid #2b76df !important;
+}
+.rectangle-icon {
+  font-size: 30px;
+  color: #fb493f !important;
+}
+.rectangle-icon#blue-icon {
+  font-size: 30px;
+  color: #2b76df !important;
+}
+.reactangle-card-heading {
+  font-weight: bold;
+  font-size: 20px !important;
+}
+.rectangle-card-details {
+  font-size: 14px !important;
+}
+.rectangle-card li {
+  font-size: 14px !important;
 }
 
 /* ================= Feature Brief Section ================= */
@@ -146,7 +422,7 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
-/* ================= About Brief Section ================= */
+/* ================= Home Page About Brief Section ================= */
 .about-brief {
   background-image: url("../assets/images/backgrounds/bg-2.png");
   display: flex;
@@ -191,6 +467,17 @@
   display: flex;
   justify-content: center !important;
   align-items: flex-start;
+}
+.homepage-principal-brief-img {
+  width: auto;
+  height: 400px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.homepage-principal-brief-img img {
+  width: auto;
+  height: 350px !important;
 }
 .homepage-principle-brief-content {
   display: flex;
@@ -264,7 +551,7 @@
 }
 .amenities-card {
   width: 350px;
-  height: 380px;
+  height: 200px;
   background-color: #ff9c02;
   padding: 20px;
   border-radius: 5px;
@@ -332,6 +619,79 @@
   font-weight: bold;
 }
 
+/* ================= Academics ================= */
+.academics-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.academics-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.academics-banner-section {
+  background-image: url("../assets/images/backgrounds/bg-2.png");
+  width: 100% !important;
+  height: 450px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 200px !important;
+}
+.academics-page-section {
+  text-transform: uppercase !important;
+  color: #fb493f !important;
+  font-weight: bold;
+  font-size: 20px !important;
+  letter-spacing: 10px;
+}
+.academics-screen-name {
+  margin: 20px !important;
+  font-family: "Mochiy Pop One", sans-serif !important;
+  font-size: 44px !important;
+}
+.academics-content-container {
+  display: flex !important;
+}
+.academics-content-left {
+  padding: 40px !important;
+  background-color: #2f373d;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.academics-content-left p {
+  color: #fff !important;
+}
+.academics-content-left #academics {
+  margin: 0 !important;
+  color: #ff9c02 !important;
+  font-weight: 600 !important;
+  font-size: 20px;
+}
+.academics-content-left h1 {
+  color: #fff;
+  font-family: "Mochiy Pop One", sans-serif !important;
+  margin-bottom: 15px !important;
+}
+.academics-content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.academics-content-right img {
+  width: 100%;
+  height: auto;
+}
+
 /* ================= Common Elements ================= */
 .grid-container {
   display: flex !important;
@@ -364,6 +724,74 @@
   margin-right: 25px !important;
 }
 
+/* ================= Contact ================= */
+.contact-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-card {
+  flex: 1;
+  height: 180px !important;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.contact-card#contact-red {
+  background-color: #fb493f;
+}
+.contact-card#contact-mango {
+  background-color: #ff9c02;
+}
+.contact-card#contact-blue {
+  background-color: #5591e5;
+}
+.contact-label {
+  font-weight: bold;
+  color: #e7e7e7e7 !important;
+  font-family: "Mochiy Pop One", sans-serif !important;
+  font-size: 14px;
+  text-align: center;
+}
+.contact-description {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 !important;
+}
+.contact-form-container {
+  background-color: #7f5aff;
+  border-radius: 10px;
+  padding: 100px !important;
+}
+.contact-form-container p {
+  font-weight: bold;
+  font-size: 44px;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.contact-input {
+  background-color: #7251e5 !important;
+  border: 0 !important;
+  color: #fff !important;
+}
+.contact-input-label {
+  color: #fff !important;
+}
+.contact-button {
+  background-color: #fff !important;
+  border: 0 !important;
+  color: #7251e5 !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+
 /* ================= Buttons ================= */
 .anchor-button-xl {
   width: 200px;
@@ -382,7 +810,99 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
 }
 
+/* ================= Admissions ================= */
+.admissions-heading {
+  width: 100%;
+  margin-bottom: 50px !important;
+}
+.admissions-heading h5 {
+  text-align: center !important;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fb493f !important;
+  letter-spacing: 20px;
+}
+.admissions-heading p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 !important;
+}
+/* ================= Fee Structure ================= */
+.fee-structure-card {
+  border: 1px solid #fb493f;
+  border-radius: 5px;
+  padding: 30px;
+  width: 500px;
+  height: 400px;
+  margin: 20px;
+  background-color: #fff !important;
+}
+.fee-structure-card:hover {
+  transition: 0.3s all ease-in-out !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+}
+.fee-flex {
+  display: flex !important;
+}
+.fee-structure-card h3 {
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+.fee-feature {
+  margin-top: 20px;
+  flex: 1;
+}
+.fee-feature p {
+  margin: 0 !important;
+  font-size: 14px;
+}
+.price {
+  font-weight: bold;
+  margin: 0 !important;
+  font-size: 20px !important;
+}
+.ol_nerdy_logo {
+  width: 80px !important;
+  height: auto !important;
+}
+
 /* ================= Footer ================= */
+.footer {
+  border-top: 1px solid #e7e7e7 !important;
+  padding: 40px !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #fff !important;
+}
+.footer-first-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-icon {
+  margin-right: 10px;
+  font-size: 20px !important;
+  color: #fb493f !important;
+}
+.footer ul {
+  margin-right: 50px !important;
+}
+.footer li {
+  list-style-type: none;
+  margin-bottom: 10px !important;
+}
+.footer-menu {
+  text-decoration: none;
+  color: #000;
+}
+.footer-menu:hover {
+  text-decoration: none;
+  color: #fb493f !important;
+}
 .development-footer {
   display: flex;
   justify-content: center !important;
@@ -425,6 +945,12 @@
     width: 50px;
     height: 50px;
     margin-left: 10px !important;
+  }
+  .ol_nerdy {
+    width: 80px;
+    height: auto;
+    margin-top: 10px !important;
+    margin-left: 0 !important;
   }
 
   /* ================= Home Page Banner ================= */
@@ -498,7 +1024,7 @@
     padding-left: 10px !important;
   }
 
-  /* ================= About Brief Section ================= */
+  /* ================= Homepage About Brief Section ================= */
   .about-brief {
     background-image: url("../assets/images/backgrounds/bg-2.png");
     display: flex;
@@ -530,7 +1056,299 @@
     font-size: 16px !important;
   }
 
+  /* ================= About Section ================= */
+  .about-page-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .about-page-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .about-page-banner-section {
+    background-image: url("../assets/images/backgrounds/bg-2.png");
+    width: 100% !important;
+    height: 450px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px !important;
+  }
+  .about-page-section {
+    text-transform: uppercase !important;
+    color: #fb493f !important;
+    font-weight: bold;
+    font-size: 20px !important;
+    letter-spacing: 10px;
+  }
+  .about-page-screen-name {
+    margin: 20px !important;
+    font-family: "Mochiy Pop One", sans-serif !important;
+    font-size: 36px !important;
+  }
+  .about-content-container {
+    flex-direction: column;
+  }
+  .about-content-right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ================= Academics Section ================= */
+  .academics-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .academics-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .academics-banner-section {
+    background-image: url("../assets/images/backgrounds/bg-2.png");
+    width: 100% !important;
+    height: 450px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px !important;
+  }
+  .academics-page-section {
+    text-transform: uppercase !important;
+    color: #fb493f !important;
+    font-weight: bold;
+    font-size: 20px !important;
+    letter-spacing: 10px;
+  }
+  .academics-page-screen-name {
+    margin: 20px !important;
+    font-family: "Mochiy Pop One", sans-serif !important;
+    font-size: 36px !important;
+  }
+  .academics-content-container {
+    flex-direction: column;
+  }
+  .academics-content-right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ================= Founders Button Section ================= */
+  .founders-btn-container {
+    flex-direction: column !important;
+  }
+  .left-btn {
+    border-bottom-left-radius: 0;
+    width: 100% !important;
+  }
+  .center-btn {
+    width: 100% !important;
+  }
+  .right-btn {
+    width: 100% !important;
+  }
+
+  /* ================= Homepage Principal Brief Section ================= */
+  .homepage-principal-brief {
+    flex-direction: column !important;
+    max-width: 100% !important ;
+  }
+  .homepage-principal-brief-left {
+    width: 100% !important;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .homepage-principal-brief-img {
+    max-width: auto;
+    max-height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .homepage-principal-brief-img img {
+    width: 100%;
+    height: auto !important;
+  }
+  .homepage-principal-btn-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+  }
+  .home-page-under-button-extreme-left {
+    width: 100% !important;
+    margin-bottom: 2px;
+  }
+  .home-page-under-button-left {
+    width: 100% !important;
+    margin-bottom: 2px;
+  }
+  .home-page-under-button-right {
+    width: 100% !important;
+    margin-bottom: 2px;
+    border-bottom-right-radius: 0 !important;
+  }
+  .read-more-btn-sm {
+    background-color: #fb493f;
+    width: 120px;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50px;
+  }
+  .read-more-btn-sm:hover {
+    color: #fff;
+    transition: 0.3s all ease-in-out !important;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  }
+  .homepage-principal-brief-left .vertical-line {
+    display: none !important;
+  }
+
+  /* ================= Founders Section ================= */
+  .founders-content-container {
+    flex-direction: column !important;
+  }
+
+  /* ================= Curriculum & Amenities Section ================= */
+  .rectangle-card {
+    height: 520px;
+    flex-direction: column;
+  }
+  .rectangle-icon {
+    font-size: 30px;
+    color: #fb493f !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* ================= Contact ================= */
+  .contact-section-container {
+    flex-direction: column !important;
+  }
+  .contact-card {
+    width: 100%;
+  }
+  .contact-card#contact-red {
+    background-color: #fb493f;
+  }
+  .contact-card#contact-mango {
+    background-color: #ff9c02;
+  }
+  .contact-card#contact-blue {
+    background-color: #5591e5;
+  }
+  .contact-label {
+    font-weight: bold;
+    color: #e7e7e7e7 !important;
+    font-family: "Mochiy Pop One", sans-serif !important;
+    font-size: 14px;
+    text-align: center;
+  }
+  .contact-description {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 !important;
+  }
+  .contact-form-container {
+    padding: 30px !important;
+    width: 95% !important;
+  }
+  .contact-form-container p {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  /* ================= Fee Structure ================= */
+  .fee-structure-card {
+    height: 520px;
+  }
+  .fee-flex {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .fee-feature p {
+    margin: 0 !important;
+    font-size: 12px;
+  }
+  .price {
+    font-weight: bold;
+    margin: 0 !important;
+    font-size: 18px !important;
+  }
+  .ol_nerdy_logo {
+    width: 50px !important;
+    height: auto !important;
+  }
+
+  /* ================= Founders Profile Section ================= */
+  .founder-profile-container {
+    flex-direction: column-reverse !important;
+  }
+  .founder-profile-left-section {
+    height: auto !important;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px !important;
+  }
+  .founder-profile-right-section {
+    height: auto !important;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px !important;
+  }
+  .founder-img-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: auto !important;
+    height: 100% !important;
+  }
+  .founder-img-container img {
+    width: 60% !important;
+    height: auto;
+  }
+  .founder-profile-left-section p {
+    text-align: center !important;
+  }
+  .founder-profile-right-section p {
+    text-align: center !important;
+  }
+  .founder-profile-left-section h5 {
+    color: #fb493f !important;
+  }
+  .founder-profile-right-section h5 {
+    color: #fb493f !important;
+  }
+
   /* ================= Footer ================= */
+
+  .footer {
+    border-top: 1px solid #e7e7e7 !important;
+    padding: 10px !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column !important;
+    left: 0 !important;
+  }
   .development-footer {
     display: flex;
     justify-content: center !important;

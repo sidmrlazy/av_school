@@ -34,11 +34,11 @@
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="https://onlynus.com" target="_blank">
                         <img src="assets/images/logo-red.png" alt="" class="ol_nerdy">
                     </a>
-                </li>
+                </li> -->
 
             </ul>
             <div class="d-flex social-media-mobile-navbar">

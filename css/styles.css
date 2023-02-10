@@ -869,6 +869,23 @@ input::-webkit-inner-spin-button {
   height: auto !important;
 }
 
+/* ================= Transfer Certificates ================= */
+.tc-img-container {
+  width: 300px;
+  height: auto;
+  border: 1px solid #fb493f;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.tc-img-container img {
+  width: 298px;
+  height: auto;
+  border-radius: 5px;
+}
+
 /* ================= Footer ================= */
 .footer {
   border-top: 1px solid #e7e7e7 !important;

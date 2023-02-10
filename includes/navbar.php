@@ -3,8 +3,7 @@
         <a class="navbar-brand" href="index.php">
             <img src="assets/images/logo.png" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -19,14 +18,14 @@
                     <a class="nav-link" href="curriculum.php">Curriculum & Academics</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Admissions
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="admissions.php#criteria">Admission Criteria</a></li>
                         <li><a class="dropdown-item" href="admissions.php#fee-structure">Fee Structure</a></li>
-                        <li><a class="dropdown-item" href="#">Transfer Certificate</a></li>
+                        <li><a class="dropdown-item" href="admissions.php#transfer-certificates">Transfer
+                                Certificate</a></li>
                     </ul>
                 </li>
 
@@ -46,20 +45,14 @@
                 $number = "918318075979";
                 $message = "Hi, I want to enquire about - ";
                 ?>
-                <a href="https://wa.me/<?php echo $number ?>?text=<?php echo $message ?>" target="_blank"
-                    class="navbar-lottie-container">
-                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_qnpfavmd.json"
-                        background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
+                <a href="https://wa.me/<?php echo $number ?>?text=<?php echo $message ?>" target="_blank" class="navbar-lottie-container">
+                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_qnpfavmd.json" background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
                 </a>
-                <a href="https://www.facebook.com/AvaneendraAcademySchoolLucknow/" target="_blank"
-                    class="navbar-lottie-container">
-                    <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_qhsl1iwc.json"
-                        background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
+                <a href="https://www.facebook.com/AvaneendraAcademySchoolLucknow/" target="_blank" class="navbar-lottie-container">
+                    <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_qhsl1iwc.json" background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
                 </a>
-                <a href="https://instagram.com/avaneendraacademy?igshid=YmMyMTA2M2Y=" target="_blank"
-                    class="navbar-lottie-container">
-                    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_vnqzcze6.json"
-                        background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
+                <a href="https://instagram.com/avaneendraacademy?igshid=YmMyMTA2M2Y=" target="_blank" class="navbar-lottie-container">
+                    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_vnqzcze6.json" background="transparent" speed="1" class="navbar-lottie" loop autoplay></lottie-player>
                 </a>
             </div>
 

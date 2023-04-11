@@ -11,5 +11,17 @@
         <div class="tc-img-container">
             <img src="assets/images/TC/3.jpeg" alt="">
         </div>
+        <div class="tc-img-container">
+            <img src="assets/images/TC/4.jpeg" alt="">
+        </div>
+        <div class="tc-img-container">
+            <img src="assets/images/TC/5.jpeg" alt="">
+        </div>
+        <div class="tc-img-container">
+            <img src="assets/images/TC/6.jpeg" alt="">
+        </div>
+        <div class="tc-img-container">
+            <img src="assets/images/TC/7.jpeg" alt="">
+        </div>
     </div>
 </div>

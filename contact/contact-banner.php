@@ -112,35 +112,64 @@
         '$user_contact_for',
         '$user_details')";
         $result = mysqli_query($connection, $query);
+
+        // Email Body
+        $to = "avaneendraacademy@gmail.com, connectonlyn@onlynus.com";
+        $subject = "Website Visitor | The Avaneendra Academy";
+        $message = "
+        <html>
+        <head>
+        </head>
+        <body>
+        <table>
+        <tr>
+        <th>Name</th>
+        <th>Contact</th>
+        <th>Email</th>
+        <th>Contacting For</th>
+        <th>Details</th>
+        </tr>
+        <tr>
+        <td>$username</td>
+        <td>$user_contact</td>
+        <td>$user_email</td>
+        <td>$user_contact_for</td>
+        <td>$user_details</td>
+        </tr>
+        </table>
+        </body>
+        </html>
+        ";
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+
         if (!$result) {
             echo die("<div class='alert alert-danger' role='alert'>
             Oops! Looks like there was some problem submitting your query. Please try again.
           </div>" . " " .  mysqli_error($connection));
         } else {
             echo '<div class="alert alert-success" role="alert">Thank you for contacting Avaneendra Academy! We will connect with you shortly.</div>';
+            mail($to, $subject, $message, $headers);
         }
     }
     ?>
     <p>Send a Message</p>
     <form action="" method="POST">
         <div class="form-floating mb-3">
-            <input type="text" reuired name="user_name" class="contact-input form-control" id="fullName"
-                placeholder="Full Name">
+            <input type="text" reuired name="user_name" class="contact-input form-control" id="fullName" placeholder="Full Name">
             <label for="fullName" class="contact-input-label">Name</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="number" required maxlength="10" name="user_contact" class="contact-input form-control"
-                id="contactNumber" placeholder="+91 XXXXX XXXXX">
+            <input type="number" required maxlength="10" name="user_contact" class="contact-input form-control" id="contactNumber" placeholder="+91 XXXXX XXXXX">
             <label for="contactNumber" class="contact-input-label">Contact number</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="email" class="contact-input form-control" name="user_email" id="floatingPassword"
-                placeholder="Password">
+            <input type="email" class="contact-input form-control" name="user_email" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword" class="contact-input-label">Email</label>
         </div>
         <div class="form-floating mb-3">
-            <select class="contact-input form-select" id="floatingSelect" name="user_contact_for"
-                aria-label="Floating label select example">
+            <select class="contact-input form-select" id="floatingSelect" name="user_contact_for" aria-label="Floating label select example">
                 <option selected>Contacting for?</option>
                 <option value="Admissions">Admissions</option>
                 <option value="Career">Career</option>
@@ -149,8 +178,7 @@
             <label for="floatingSelect" class="contact-input-label">Works with selects</label>
         </div>
         <div class="form-floating mb-3">
-            <textarea class="contact-input form-control" name="user_details" placeholder="Leave a comment here"
-                id="floatingTextarea2" style="height: 100px"></textarea>
+            <textarea class="contact-input form-control" name="user_details" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
             <label for="floatingTextarea2" class="contact-input-label">Share Details</label>
         </div>
 
